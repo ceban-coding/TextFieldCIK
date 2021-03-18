@@ -13,6 +13,8 @@
 		D698521425FFCB7F00C4E838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D698521225FFCB7F00C4E838 /* Main.storyboard */; };
 		D698521625FFCB8000C4E838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D698521525FFCB8000C4E838 /* Assets.xcassets */; };
 		D698521925FFCB8000C4E838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D698521725FFCB8000C4E838 /* LaunchScreen.storyboard */; };
+		D698522325FFD27900C4E838 /* zipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D698522225FFD27900C4E838 /* zipCodeDelegate.swift */; };
+		D698522825FFD44F00C4E838 /* DollarTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D698522725FFD44F00C4E838 /* DollarTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D698521525FFCB8000C4E838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D698521825FFCB8000C4E838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D698521A25FFCB8000C4E838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D698522225FFD27900C4E838 /* zipCodeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeDelegate.swift; sourceTree = "<group>"; };
+		D698522725FFD44F00C4E838 /* DollarTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D698520B25FFCB7F00C4E838 /* TextFieldCIK */ = {
 			isa = PBXGroup;
 			children = (
+				D698522125FFD25300C4E838 /* TextFieldDelegate */,
 				D698520C25FFCB7F00C4E838 /* AppDelegate.swift */,
 				D698520E25FFCB7F00C4E838 /* SceneDelegate.swift */,
 				D698521025FFCB7F00C4E838 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				D698521A25FFCB8000C4E838 /* Info.plist */,
 			);
 			path = TextFieldCIK;
+			sourceTree = "<group>";
+		};
+		D698522125FFD25300C4E838 /* TextFieldDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D698522225FFD27900C4E838 /* zipCodeDelegate.swift */,
+				D698522725FFD44F00C4E838 /* DollarTextFieldDelegate.swift */,
+			);
+			path = TextFieldDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				D698521125FFCB7F00C4E838 /* ViewController.swift in Sources */,
 				D698520D25FFCB7F00C4E838 /* AppDelegate.swift in Sources */,
+				D698522825FFD44F00C4E838 /* DollarTextFieldDelegate.swift in Sources */,
+				D698522325FFD27900C4E838 /* zipCodeDelegate.swift in Sources */,
 				D698520F25FFCB7F00C4E838 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
